@@ -1,0 +1,40 @@
+.home{
+    position: relative;
+    /* margin-top: 5rem;
+    margin-bottom: 6rem; */
+    height: 100vh;
+    background: #2c3e50;
+    padding: 3rem;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    height: 38rem;
+    width: 100%;
+    /* object-fit: contain */
+    object-fit: fill;
+    /* object-fit: scale-down; */
+    object-position: 100% 50%;
+    /* object-position: 15% 100%; */
+}
+.slick-slider{
+    margin: 3rem auto !important;
+}
+.sliding_box{
+    background: white;
+    padding: 3rem 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 5px 0px;
+}
+ .sliding_box  h1{
+    color:#2c3e50 ;
+    font-weight: 700;
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+}
+.sliding_box p{
+    margin: 2rem 0;
+}
+.slider_container{
+    margin: 12% auto;
+ 
+}

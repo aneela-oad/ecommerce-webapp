@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Yekan;
+  src: url(./../../public//font//iranyekanwebregular.e31c09af.woff2);
+}
+
+* {
+  font-family: 'Yekan', sans-serif;
+  user-select: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #eee;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4999ce;
+  border-radius: 50px;
+  width: 5px;
+}
